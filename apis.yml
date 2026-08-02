@@ -1,7 +1,19 @@
 aid: telaria
 name: Telaria
-description: Telaria is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Telaria was an independent supply-side platform (SSP) for premium video and
+  connected TV (CTV) advertising, formerly known as Tremor Video's sell-side
+  business. Its Video Management Platform (VMP) combined an ad server built for
+  advanced/OTT TV with real-time analytics, automated decisioning, yield
+  optimization, and integrated programmatic plus direct-sold monetization for
+  publishers of digital video inventory. On April 1, 2020 Telaria completed an
+  all-stock merger of equals with Rubicon Project to form Magnite, now the
+  largest independent sell-side advertising platform spanning CTV, desktop, and
+  mobile. Telaria no longer operates as a standalone company: the telaria.com
+  domain redirects to magnite.com, and the "Telaria" name survives publicly only
+  as a Prebid.js header-bidding bidder adapter routed through Magnite. This
+  profile documents the historical company; there is no independent public
+  developer API, OpenAPI definition, SDK, or documentation portal to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/telaria/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,51 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: magnite
+x-acquired-date: '2020-04-01'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Advertising
+- AdTech
+- Video Advertising
+- Connected TV
+- CTV
+- Supply-Side Platform
+- SSP
+- Programmatic
+- Acquired
+image: https://raw.githubusercontent.com/api-evangelist/telaria/refs/heads/main/apis.yml
+common:
+- type: Website
+  url: https://telaria.com
+- type: SuccessorCompany
+  name: Magnite
+  url: https://www.magnite.com
+- type: DomainSecurity
+  url: security/telaria-domain-security.yml
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
