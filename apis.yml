@@ -24,6 +24,17 @@ x-tier-reason: portfolio-lead
 x-status: acquired
 x-acquired-by: magnite
 x-acquired-date: '2020-04-01'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
